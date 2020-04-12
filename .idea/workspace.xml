@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Welcome/Welcome.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Welcome/Welcome.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.module.css" afterDir="false" />
     </list>
@@ -62,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586591820307</updated>
-      <workItem from="1586591825875" duration="24834000" />
+      <workItem from="1586591825875" duration="30841000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586710294877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add and styled Welcome section">
+      <created>1586717673533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586717673533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,13 +95,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="Add and styled header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add and styled header" />
+    <MESSAGE value="Add and styled Welcome section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and styled Welcome section" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1586710292294">
+    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1586717671337">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586710292294" />
+    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586717671337" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -102,10 +111,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="680" y="360" width="264" height="209" key="Github.ShareDialog/0.30.1600.870@0.30.1600.870" timestamp="1586602886549" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1586710298634">
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1586717674275">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1586710298634" />
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1586717674275" />
     <state x="456" y="213" key="run.anything.popup" timestamp="1586702392912">
       <screen x="0" y="30" width="1600" height="870" />
     </state>

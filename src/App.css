@@ -3,12 +3,14 @@
 * {
   font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
-  color: #1A212F;
+  font-weight: 500;
+  color: #000000;
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 h1, h2, h3, h4 {
