@@ -1,11 +1,11 @@
-.headerContainer {
-    min-height: 100vh;
+.headerContainer > * {
+    z-index: 10;
 }
 
 .menuButton {
     position: fixed;
-    top: 3.5rem;
-    left: 4.5rem;
+    top: 3%;
+    left: 4%;
     padding-top: 5px;
 
     display: flex;
@@ -93,19 +93,20 @@
 
 .phoneNumber {
     position: fixed;
-    top: 3.5rem;
-    right: 4.5rem;
+    top: 3%;
+    right: 4%;
+    transition-duration: 300ms;
 }
 
 .phoneNumber:hover {
     color: #f78e6a;
-    transition-duration: 300ms;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
     position: fixed;
     top: 45%;
-    left: 4.5rem;
+    left: 4%;
 
     display: flex;
     justify-content: center;
@@ -121,8 +122,8 @@
 
 .socialLinks {
     position: fixed;
-    bottom: 3.5rem;
-    left: 4.5rem;
+    bottom: 3%;
+    left: 4%;
 
     display: flex;
     flex-direction: row;
@@ -138,18 +139,19 @@
 
 .socialLinks li:hover a {
     color: #f78e6a;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .nextPage {
     position: fixed;
-    bottom: 3.5rem;
-    right: 4.5rem;
+    bottom: 3%;
+    right: 4%;
 }
 
 .pageCounter {
     position: fixed;
     top: 40%;
-    right: 4.5rem;
+    right: 4%;
 
     display: flex;
     flex-direction: column;
@@ -164,14 +166,14 @@
     font-size: 4rem;
     line-height: 3rem;
     background: linear-gradient(to right, #f78e6a, #fc66a2);
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 }
 
 .pagesAmount {
     font-size: 1.7rem;
     background: linear-gradient(to right, #f78e6a, #fc66a2);
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 }
 
@@ -195,6 +197,10 @@
     transition-duration: 500ms;
 }
 
+.nextPage > span {
+    transition-duration: 300ms;
+}
+
 .nextPage > div::before {
     position: absolute;
     content: "";
@@ -211,9 +217,6 @@
     content: "";
     display: block;
     opacity: 0;
-
-    background: linear-gradient(#f78e6a, #fc66a2);
-    transition-duration: 500ms;
 }
 
 .nextPage > div::after {
@@ -226,11 +229,15 @@
     border-right: 0.2rem solid transparent;
 
     border-top: 0.4rem solid #fff;
-    transition-duration: 500ms;
+    transition-duration: 300ms;
 }
 
 .nextPage:hover > div {
-    background: linear-gradient(#fff, #fff);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nextPage:hover > span {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .nextPage:hover > div::after {
@@ -266,6 +273,7 @@
     .nextPage {
         bottom: 1.5rem;
         left: 1.5rem;
+        right: auto;
     }
 
     .nextPage span {
@@ -307,6 +315,7 @@
         bottom: 1.25rem;
         left: 1.25rem;
     }
+
     .nextPage div {
         margin: 0;
     }
@@ -317,10 +326,12 @@
         right: 1.25rem;
         justify-content: flex-end;
     }
+
     .currentPage {
         font-size: 1.6rem;
         line-height: 1.6rem;
     }
+
     .pagesAmount {
         font-size: 1rem;
     }
