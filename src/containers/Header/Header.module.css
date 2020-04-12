@@ -1,0 +1,327 @@
+.headerContainer {
+    min-height: 100vh;
+}
+
+.menuButton {
+    position: fixed;
+    top: 3.5rem;
+    left: 4.5rem;
+    padding-top: 5px;
+
+    display: flex;
+    align-items: flex-start;
+
+    line-height: 1rem;
+    text-transform: capitalize;
+
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.menuIcon {
+    height: 24px;
+    width: 24px;
+    margin-right: 1rem;
+
+    position: relative;
+    z-index: 20;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.bar {
+    height: 2px;
+    width: 24px;
+    display: block;
+    position: relative;
+    background-color: #f78e6a;
+    transition: 0.4s;
+}
+
+.bar:before {
+    content: "";
+    height: 2px;
+    width: 2px;
+    display: block;
+    border-right: 2px solid #fbf5f4;
+    background-color: #000;
+}
+
+.menuButton .bar {
+    position: absolute;
+}
+
+.menuButton .bar:nth-of-type(1) {
+    top: 0;
+    transition: top 0.3s ease 0.3s, transform 0.3s ease-out 0.1s;
+}
+
+.menuButton .bar:nth-of-type(2) {
+    top: 7px;
+    transition: ease 0.3s 0.3s;
+}
+
+.menuButton .bar:nth-of-type(3) {
+    top: 14px;
+    width: 20px;
+    transition: top 0.3s ease 0.3s, transform 0.3s ease-out 0.1s, width 0.3s ease-out 0.1s;
+}
+
+.menuButton:hover .bar:before {
+    opacity: 0;
+}
+
+.menuButton:hover .bar:nth-of-type(1) {
+    top: 7px;
+    width: 24px;
+    transform: rotate(45deg);
+    transition: top 0.3s ease 0.1s, transform 0.3s ease-out 0.5s;
+}
+
+.menuButton:hover .bar:nth-of-type(2) {
+    opacity: 0;
+}
+
+.menuButton:hover .bar:nth-of-type(3) {
+    top: 7px;
+    width: 24px;
+    transform: rotate(-45deg);
+    transition: top 0.3s ease 0.1s, transform 0.3s ease-out 0.5s, width 0.3s ease-out 0.1s;
+}
+
+.phoneNumber {
+    position: fixed;
+    top: 3.5rem;
+    right: 4.5rem;
+}
+
+.phoneNumber:hover {
+    color: #f78e6a;
+    transition-duration: 300ms;
+}
+
+.logo {
+    position: fixed;
+    top: 45%;
+    left: 4.5rem;
+
+    display: flex;
+    justify-content: center;
+
+    height: 10%;
+    width: 50px;
+}
+
+.logo > img {
+    margin: auto;
+    width: 50px
+}
+
+.socialLinks {
+    position: fixed;
+    bottom: 3.5rem;
+    left: 4.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10%;
+
+    text-transform: uppercase;
+}
+
+.socialLinks li a {
+    transition-duration: 300ms;
+}
+
+.socialLinks li:hover a {
+    color: #f78e6a;
+}
+
+.nextPage {
+    position: fixed;
+    bottom: 3.5rem;
+    right: 4.5rem;
+}
+
+.pageCounter {
+    position: fixed;
+    top: 40%;
+    right: 4.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    font-weight: lighter;
+    height: 20%;
+}
+
+.currentPage {
+    font-size: 4rem;
+    line-height: 3rem;
+    background: linear-gradient(to right, #f78e6a, #fc66a2);
+    background-clip: text;
+    color: transparent;
+}
+
+.pagesAmount {
+    font-size: 1.7rem;
+    background: linear-gradient(to right, #f78e6a, #fc66a2);
+    background-clip: text;
+    color: transparent;
+}
+
+.nextPage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.nextPage > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    background: #fff;
+    transition-duration: 500ms;
+}
+
+.nextPage > div::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+
+    background: linear-gradient(#f78e6a, #fc66a2);
+    transition-duration: 500ms;
+}
+
+.nextPage:hover > div::before {
+    content: "";
+    display: block;
+    opacity: 0;
+
+    background: linear-gradient(#f78e6a, #fc66a2);
+    transition-duration: 500ms;
+}
+
+.nextPage > div::after {
+    z-index: 10;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+
+    border-top: 0.4rem solid #fff;
+    transition-duration: 500ms;
+}
+
+.nextPage:hover > div {
+    background: linear-gradient(#fff, #fff);
+}
+
+.nextPage:hover > div::after {
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+    border-top: 0.4rem solid #fc66a2;
+}
+
+@media screen and (max-width: 1024px) {
+    .menuButton {
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .phoneNumber {
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .logo {
+        top: 1.5rem;
+        left: 45%;
+        width: 10%;
+        height: 30px;
+    }
+
+    .socialLinks {
+        width: 16%;
+        bottom: 1.5rem;
+        left: 42%;
+    }
+
+    .nextPage {
+        bottom: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .nextPage span {
+        display: none;
+    }
+
+    .pageCounter {
+        top: auto;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menuButton {
+        top: 1.25rem;
+        left: 1.25rem;
+    }
+
+    .phoneNumber {
+        display: none;
+    }
+
+    .logo {
+        top: 1.25rem;
+        right: 1.25rem;
+        left: auto;
+        height: 30px;
+    }
+
+    .socialLinks {
+        width: 30%;
+        bottom: 1.25rem;
+        left: 35%;
+    }
+
+    .nextPage {
+        bottom: 1.25rem;
+        left: 1.25rem;
+    }
+    .nextPage div {
+        margin: 0;
+    }
+
+    .pageCounter {
+        top: auto;
+        bottom: 1.25rem;
+        right: 1.25rem;
+        justify-content: flex-end;
+    }
+    .currentPage {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .pagesAmount {
+        font-size: 1rem;
+    }
+}
