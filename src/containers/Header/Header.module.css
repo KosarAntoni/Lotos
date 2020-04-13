@@ -20,6 +20,34 @@
     cursor: pointer;
 }
 
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.6);
+    transition-duration: 300ms;
+}
+
+.menuEnter {
+    opacity: 0;
+    transition-duration: 300ms;
+}
+.menuWrapper {
+    position: fixed;
+    top: 3%;
+    left: 10%;
+    z-index: 30;
+}
+
+.menuWrapper > div {
+    margin-bottom: 1rem;
+}
+
 .menuIcon {
     height: 24px;
     width: 24px;
@@ -47,6 +75,8 @@
     display: block;
     border-right: 2px solid #fbf5f4;
     background-color: #000;
+
+    transition-duration: 300ms;
 }
 
 .menuButton .bar {
@@ -69,26 +99,42 @@
     transition: top 0.3s ease 0.3s, transform 0.3s ease-out 0.1s, width 0.3s ease-out 0.1s;
 }
 
-.menuButton:hover .bar:before {
+.menuButton.menuOpen .bar:before {
+    transform: translateX(-1rem);
     opacity: 0;
 }
 
-.menuButton:hover .bar:nth-of-type(1) {
+.menuButton.menuOpen .bar:nth-of-type(1) {
     top: 7px;
     width: 24px;
     transform: rotate(45deg);
     transition: top 0.3s ease 0.1s, transform 0.3s ease-out 0.5s;
 }
 
-.menuButton:hover .bar:nth-of-type(2) {
+.menuButton.menuOpen .bar:nth-of-type(2) {
     opacity: 0;
 }
 
-.menuButton:hover .bar:nth-of-type(3) {
+.menuButton.menuOpen .bar:nth-of-type(3) {
     top: 7px;
     width: 24px;
     transform: rotate(-45deg);
     transition: top 0.3s ease 0.1s, transform 0.3s ease-out 0.5s, width 0.3s ease-out 0.1s;
+}
+
+.menuButton > span {
+    transition-duration: 300ms;
+}
+
+.menuOpen {
+    z-index: 25;
+    width: 30px;
+}
+
+.menuOpen > span {
+    transform: translateX(-1rem);
+    opacity: 0;
+    width: 0;
 }
 
 .phoneNumber {
@@ -252,6 +298,10 @@
         left: 1.5rem;
     }
 
+    .menuWrapper {
+        top: 1.5rem;
+    }
+
     .phoneNumber {
         top: 1.5rem;
         right: 1.5rem;
@@ -296,6 +346,11 @@
     .menuButton {
         top: 1.25rem;
         left: 1.25rem;
+    }
+
+    .menuWrapper {
+        top: 1.25rem;
+        left: 4rem;
     }
 
     .phoneNumber {
