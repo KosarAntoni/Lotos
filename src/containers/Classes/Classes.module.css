@@ -180,6 +180,86 @@
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nextClassButton {
+    font-size: 0;
+    border: 0;
+    outline: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    background: #fff;
+    transition-duration: 500ms;
+}
+
+.nextClassButton::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+
+    background: linear-gradient(#f78e6a, #fc66a2);
+    transition-duration: 500ms;
+}
+
+.nextClassButton:hover::before {
+    content: "";
+    display: block;
+    opacity: 0;
+}
+
+.nextClassButton::after {
+    z-index: 10;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+
+    border-right: 0.4rem solid #fff;
+    transition-duration: 300ms;
+}
+
+.nextClassButton:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nextClassButton:hover::after {
+    border-top: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+    border-right: 0.4rem solid #fc66a2;
+}
+
+.prevClassButton {
+    margin-left: 0.5rem;
+}
+
+.prevClassButton::after {
+    border-top: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+    border-left: 0.4rem solid #fff;
+    border-right: none;
+}
+
+.prevClassButton:hover::after {
+    border-top: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+    border-left: 0.4rem solid #fc66a2;
+    border-right: none;
+}
+
 @media screen and (max-width: 1024px) {
     .classesSection {
         flex-direction: row-reverse;
@@ -211,11 +291,15 @@
     }
 
     .informationContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
         padding: 8rem 0;
         width: 100%;
     }
 
-    .variablesContainer {
-        display: none;
+    .textContainer {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 }
