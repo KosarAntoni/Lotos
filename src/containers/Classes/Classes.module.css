@@ -21,22 +21,42 @@
 }
 
 .variablesContainer > ul > li {
+    position: relative;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.5);
+    transition-duration: 300ms;
+
+    cursor: pointer;
 }
 
 .variablesContainer .variableSelected {
     position: relative;
     color: #000000;
+    transition-duration: 300ms;
 }
 
-.variablesContainer .variableSelected:before {
+.variablesContainer li:before {
     position: absolute;
     left: -3.3rem;
     content: "Yoga - ";
     background: linear-gradient(to top, #f78e6a, #fc66a2);
     -webkit-background-clip: text;
     color: transparent;
+
+    transform: translateX(1rem);
+    opacity: 0;
+    transition-duration: 300ms;
+}
+
+.variablesContainer li.variableSelected:before  {
+    position: absolute;
+    left: -3.3rem;
+    content: "Yoga - ";
+    background: linear-gradient(to top, #f78e6a, #fc66a2);
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .variablesContainer img {
@@ -68,6 +88,22 @@
 
 .informationContainer p {
     margin-bottom: 1.5rem;
+}
+
+.textContainer {
+    opacity: 1;
+    transition-duration: 300ms;
+    transform: translateX(0) scale(1);
+}
+
+.textContainerEnter {
+    opacity: 0;
+    transform: translateX(-3rem);
+}
+
+.textContainerExit {
+    opacity: 0;
+    transform: scale(0.8);
 }
 
 .orderButton {

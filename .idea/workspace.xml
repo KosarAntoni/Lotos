@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Welcome/Welcome.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Welcome/Welcome.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.github.izhangzhihao.rainbow.brackets.settings.RainbowConfigurable" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -63,7 +65,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586591820307</updated>
-      <workItem from="1586591825875" duration="30841000" />
+      <workItem from="1586591825875" duration="32436000" />
+      <workItem from="1586775693928" duration="50000" />
+      <workItem from="1586775832592" duration="2816000" />
+      <workItem from="1586783453277" duration="294000" />
+      <workItem from="1586783770729" duration="116000" />
+      <workItem from="1586783913140" duration="6664000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -86,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586717673533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add and styled Classes section">
+      <created>1586725937026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586725937026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,25 +110,34 @@
     <MESSAGE value="initial" />
     <MESSAGE value="Add and styled header" />
     <MESSAGE value="Add and styled Welcome section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add and styled Welcome section" />
+    <MESSAGE value="Add and styled Classes section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and styled Classes section" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1586717671337">
+    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1586725932519">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586717671337" />
+    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586725932519" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="580" y="207" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1586602753441" />
+    <state x="295" y="30" key="FileDocumentManager.FileCacheConflict" timestamp="1586726316249">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state x="295" y="30" key="FileDocumentManager.FileCacheConflict/0.30.1600.870@0.30.1600.870" timestamp="1586726316249" />
     <state x="680" y="360" width="264" height="209" key="Github.ShareDialog" timestamp="1586602886549">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="680" y="360" width="264" height="209" key="Github.ShareDialog/0.30.1600.870@0.30.1600.870" timestamp="1586602886549" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1586717674275">
+    <state x="575" y="92" key="SettingsEditor" timestamp="1586784222568">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1586717674275" />
+    <state x="575" y="92" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586784222568" />
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1586725942832">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1586725942832" />
     <state x="456" y="213" key="run.anything.popup" timestamp="1586702392912">
       <screen x="0" y="30" width="1600" height="870" />
     </state>

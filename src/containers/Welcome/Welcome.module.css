@@ -6,6 +6,7 @@
 
 .imageContainer {
     width: 50%;
+    position: relative;
 
     display: flex;
     justify-content: center;
@@ -13,6 +14,7 @@
 }
 
 .imageContainer img {
+    position: absolute;
     height: 80%;
 }
 
@@ -130,16 +132,18 @@
 
 @media screen and (max-width: 1024px) {
     .welcomeSection {
-        position: relative;
         flex-direction: row-reverse;
         padding: 1.5rem;
         max-width: 100vw;
         overflow: hidden;
     }
 
+    .textContainer {
+        width: 100%;
+    }
+
     .imageContainer img {
-        position: absolute;
-        right: -4rem;
+        right: -6rem;
         transform: scale(-1, 1);
     }
 }

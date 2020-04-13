@@ -276,6 +276,10 @@
         right: auto;
     }
 
+    .nextPage div {
+        margin: 0;
+    }
+
     .nextPage span {
         display: none;
     }
@@ -314,10 +318,6 @@
     .nextPage {
         bottom: 1.25rem;
         left: 1.25rem;
-    }
-
-    .nextPage div {
-        margin: 0;
     }
 
     .pageCounter {
