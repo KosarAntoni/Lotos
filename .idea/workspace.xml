@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.module.css" afterDir="false" />
     </list>
@@ -67,7 +70,8 @@
       <workItem from="1586775832592" duration="2816000" />
       <workItem from="1586783453277" duration="294000" />
       <workItem from="1586783770729" duration="116000" />
-      <workItem from="1586783913140" duration="18235000" />
+      <workItem from="1586783913140" duration="19833000" />
+      <workItem from="1587020187843" duration="10199000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -111,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586796275625</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add menu">
+      <created>1586804980119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586804980119</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,13 +135,14 @@
     <MESSAGE value="Add and styled Classes section" />
     <MESSAGE value="Add animations and logic to Classes section" />
     <MESSAGE value="Add change class buttons to Classes section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add change class buttons to Classes section" />
+    <MESSAGE value="Add menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add menu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1586796273379">
+    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1586804977566">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586796273379" />
+    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1586804977566" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -151,9 +163,9 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1586796283599" />
-    <state x="456" y="213" key="run.anything.popup" timestamp="1586702392912">
+    <state x="456" y="213" key="run.anything.popup" timestamp="1587025443501">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1586702392912" />
+    <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1587025443501" />
   </component>
 </project>

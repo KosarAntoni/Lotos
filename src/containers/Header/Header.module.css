@@ -17,7 +17,6 @@
     background: none;
     border: none;
     outline: none;
-    cursor: pointer;
 }
 
 .menu {
@@ -38,13 +37,16 @@
     transition-duration: 300ms;
 }
 .menuWrapper {
+    display: flex;
+    flex-direction: column;
+
     position: fixed;
     top: 3%;
     left: 10%;
     z-index: 30;
 }
 
-.menuWrapper > div {
+.menuWrapper > a {
     margin-bottom: 1rem;
 }
 
@@ -57,6 +59,7 @@
     z-index: 20;
     border-radius: 100%;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .bar {
