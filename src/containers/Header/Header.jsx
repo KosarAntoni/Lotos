@@ -21,20 +21,27 @@ const Header = ({pathname, slides}) => {
 
     const slidesAmount = `- 0${slides.length}`;
 
-    const getSlidePath = () => {
+    const getNextSlideButton = () => {
         //get index 0f next slide
-        const nextSlideIndex = slides[slides.findIndex( (slide) => slide.path === pathname ) + 1];
+        const nextSlideIndex = slides[slides.findIndex((slide) => slide.path === pathname) + 1];
         //if next slide exist return next slide path else return path to first slide
-        return nextSlideIndex ? nextSlideIndex.path : slides[0].path;
+        return nextSlideIndex ?
+            <Link to={nextSlideIndex.path} className={styles.nextPage}>
+                <span>{nextSlideIndex.name}</span>
+                <div/>
+            </Link>
+            :
+            <Link to={slides[0].path} className={styles.nextPage}>
+                <span>{slides[0].name}</span>
+                <div/>
+            </Link>;
     };
-
-
 
     const handleOpenMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const menuLinks = slides.map( (slide) => <Link to={slide.path} onClick={handleOpenMenu}>{slide.name}</Link> );
+    const menuLinks = slides.map((slide) => <Link to={slide.path} onClick={handleOpenMenu}>{slide.name}</Link>);
 
     const menu =
         <TransitionGroup>
@@ -88,10 +95,7 @@ const Header = ({pathname, slides}) => {
                 <div className={styles.currentPage}>{getCurrentPageNumber()}</div>
                 <div className={styles.pagesAmount}>{slidesAmount}</div>
             </div>
-            <Link to={getSlidePath} className={styles.nextPage}>
-                <span>Classes</span>
-                <div/>
-            </Link>
+            {getNextSlideButton()}
         </div>
     );
 };
