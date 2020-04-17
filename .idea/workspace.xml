@@ -66,7 +66,7 @@
       <workItem from="1586783453277" duration="294000" />
       <workItem from="1586783770729" duration="116000" />
       <workItem from="1586783913140" duration="19833000" />
-      <workItem from="1587020187843" duration="10847000" />
+      <workItem from="1587020187843" duration="11584000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587113750315</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Generate next slide button from current path">
+      <created>1587114204876</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587114204876</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,13 +146,14 @@
     <MESSAGE value="Add change class buttons to Classes section" />
     <MESSAGE value="Add menu" />
     <MESSAGE value="Add react router support and link to menu and next slide button;&#10;Add page numbers are calculate from slides array and current slide path;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add react router support and link to menu and next slide button;&#10;Add page numbers are calculate from slides array and current slide path;" />
+    <MESSAGE value="Generate next slide button from current path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generate next slide button from current path" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1587113745643">
+    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1587114203454">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587113745643" />
+    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587114203454" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -162,10 +170,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="575" y="92" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586784222568" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587113760955">
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587114207626">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587113760955" />
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587114207626" />
     <state x="456" y="213" key="run.anything.popup" timestamp="1587025443501">
       <screen x="0" y="30" width="1600" height="870" />
     </state>

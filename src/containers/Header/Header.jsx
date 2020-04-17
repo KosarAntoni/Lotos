@@ -9,14 +9,8 @@ const Header = ({pathname, slides}) => {
     let [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const getCurrentPageNumber = () => {
-        switch (pathname) {
-            case "/01":
-                return "01";
-            case "/02":
-                return "02";
-            default:
-                return "00";
-        }
+        const slideIndex = slides.findIndex( (slide) => slide.path === pathname) + 1;
+        return slideIndex.toString().length < 2 ? "0" + slideIndex : slideIndex;
     };
 
     const slidesAmount = `- 0${slides.length}`;
