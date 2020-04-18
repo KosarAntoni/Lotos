@@ -36,7 +36,7 @@
 
 .titleContainer > span {
     position: absolute;
-    left: -2rem;
+    left: -2.5rem;
     font-size: 1.05rem;
     background: linear-gradient(to right, #f78e6a, #fc66a2);
     -webkit-background-clip: text;
@@ -47,7 +47,7 @@
 }
 
 .titleContainer > h1 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     font-size: 8rem;
     font-weight: 500;
     background: linear-gradient(to top, #f78e6a, #fc66a2);

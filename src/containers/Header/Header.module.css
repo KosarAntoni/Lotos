@@ -217,6 +217,21 @@
     background: linear-gradient(to right, #f78e6a, #fc66a2);
     -webkit-background-clip: text;
     color: transparent;
+
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 300ms, opacity 150ms;
+}
+
+.currentPageEnter {
+    opacity: 0;
+    transform: translateY(-1rem);
+    transition: transform 300ms, opacity 150ms;
+}
+
+.currentPageExit {
+    opacity: 0;
+    transform: translateY(1rem);
 }
 
 .pagesAmount {
@@ -247,6 +262,18 @@
 }
 
 .nextPage > span {
+    transition-duration: 300ms;
+}
+
+.nextPageText {
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 300ms;
+}
+
+.nextPageTextEnter {
+    opacity: 0;
+    transform: translateX(2rem);
     transition-duration: 300ms;
 }
 

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Fragment} from "react";
+import React, {useState} from "react";
 import styles from "./Classes.module.css"
 import i02 from "../../Assets/02.png"
 import {CSSTransition, SwitchTransition} from "react-transition-group";
@@ -65,22 +65,17 @@ const Classes = () => {
             <CSSTransition
                 key={yogaClassesData[currentVariable].title}
                 timeout={{
-                    appear:0,
                     enter: 0,
                     exit: 300
                 }}
-                appear
                 classNames={{
-                    appear: styles.textContainerEnter,
-                    appearActive: styles.textContainerEnter,
-                    appearDone: styles.textContainer,
                     enter: styles.textContainerEnter,
                     enterActive: styles.textContainerEnter,
                     enterDone: styles.textContainer,
                     exit: styles.textContainer,
                     exitActive: styles.textContainerExit
                 }}>
-                <div>
+                <div className={styles.textContainer}>
                     <h2>{yogaClassesData[currentVariable].title}</h2>
                     {yogaClassesData[currentVariable].about.map((item, id ) => <p key={id}>{item}</p>)}
                     <button className={styles.orderButton}>

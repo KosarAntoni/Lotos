@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {CSSTransition, TransitionGroup} from "react-transition-group";
+import {CSSTransition, SwitchTransition, TransitionGroup} from "react-transition-group";
 import {Link} from "react-router-dom";
 import styles from "./Header.module.css"
 import logo from "../../Assets/logo.svg"
@@ -9,26 +9,55 @@ const Header = ({pathname, slides}) => {
     let [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const getCurrentPageNumber = () => {
-        const slideIndex = slides.findIndex( (slide) => slide.path === pathname) + 1;
-        return slideIndex.toString().length < 2 ? "0" + slideIndex : slideIndex;
+        const slideIndex = slides.findIndex((slide) => slide.path === pathname) + 1;
+        const pageNumber = slideIndex.toString().length < 2 ? "0" + slideIndex : slideIndex;
+        return <SwitchTransition>
+            <CSSTransition
+                key={pageNumber}
+                timeout={{
+                    enter: 0,
+                    exit: 300
+                }}
+                classNames={{
+                    enter: styles.currentPageEnter,
+                    enterActive: styles.currentPageEnter,
+                    enterDone: styles.currentPage,
+                    exit: styles.currentPage,
+                    exitActive: styles.currentPageExit
+                }}>
+                <div className={styles.currentPage}>{pageNumber}</div>
+            </CSSTransition>
+        </SwitchTransition>
     };
 
-    const slidesAmount = `- 0${slides.length}`;
+    //awful code check if length length of slides array is more than 2 chars else add 0
+    const slidesAmount = slides.length.toString().length < 2 ? `0${slides.length}` : `${slides.length}`;
 
     const getNextSlideButton = () => {
-        //get index 0f next slide
-        const nextSlideIndex = slides[slides.findIndex((slide) => slide.path === pathname) + 1];
+        //get index of next slide
+        const nextSlideIndexItem = slides[slides.findIndex((slide) => slide.path === pathname) + 1];
         //if next slide exist return next slide path else return path to first slide
-        return nextSlideIndex ?
-            <Link to={nextSlideIndex.path} className={styles.nextPage}>
-                <span>{nextSlideIndex.name}</span>
-                <div/>
-            </Link>
-            :
-            <Link to={slides[0].path} className={styles.nextPage}>
-                <span>{slides[0].name}</span>
-                <div/>
-            </Link>;
+        const nextSlideData = nextSlideIndexItem ? nextSlideIndexItem : slides[0];
+        return <Link to={nextSlideData.path} className={styles.nextPage}>
+            <SwitchTransition>
+                <CSSTransition
+                    key={nextSlideData.name}
+                    timeout={{
+                        enter: 0,
+                        exit: 300
+                    }}
+                    classNames={{
+                        enter: styles.nextPageTextEnter,
+                        enterActive: styles.nextPageTextEnter,
+                        enterDone: styles.nextPageText,
+                        exit: styles.nextPageText,
+                        exitActive: styles.nextPageTextEnter
+                    }}>
+                    <span className={styles.nextPageText}>{nextSlideData.name}</span>
+                </CSSTransition>
+            </SwitchTransition>
+            <div/>
+        </Link>;
     };
 
     const handleOpenMenu = () => {
@@ -38,7 +67,7 @@ const Header = ({pathname, slides}) => {
     const menuLinks = slides.map((slide) => <Link to={slide.path} onClick={handleOpenMenu}>{slide.name}</Link>);
 
     const menu =
-        <TransitionGroup>
+        <TransitionGroup component={null}>
             {isMenuOpen && <CSSTransition
                 timeout={{
                     enter: 0,
@@ -71,9 +100,9 @@ const Header = ({pathname, slides}) => {
             </button>
             {menu}
             <a className={styles.phoneNumber} href={"tel:+12 345 678 901"}>+12 345 678 901</a>
-            <div className={styles.logo}>
+            <Link to={slides[0].path} className={styles.logo}>
                 <img src={logo} alt=""/>
-            </div>
+            </Link>
             <ul className={styles.socialLinks}>
                 <li>
                     <a href="#">vk</a>
@@ -86,8 +115,8 @@ const Header = ({pathname, slides}) => {
                 </li>
             </ul>
             <div className={styles.pageCounter}>
-                <div className={styles.currentPage}>{getCurrentPageNumber()}</div>
-                <div className={styles.pagesAmount}>{slidesAmount}</div>
+                {getCurrentPageNumber()}
+                <div className={styles.pagesAmount}>- {slidesAmount}</div>
             </div>
             {getNextSlideButton()}
         </div>

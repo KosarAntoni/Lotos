@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Welcome/Welcome.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Welcome/Welcome.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +72,8 @@
       <workItem from="1586783453277" duration="294000" />
       <workItem from="1586783770729" duration="116000" />
       <workItem from="1586783913140" duration="19833000" />
-      <workItem from="1587020187843" duration="11584000" />
+      <workItem from="1587020187843" duration="12613000" />
+      <workItem from="1587210104029" duration="10657000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -131,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587114204876</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Calculate current page number from slide index">
+      <created>1587114929500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587114929500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,13 +161,14 @@
     <MESSAGE value="Add menu" />
     <MESSAGE value="Add react router support and link to menu and next slide button;&#10;Add page numbers are calculate from slides array and current slide path;" />
     <MESSAGE value="Generate next slide button from current path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generate next slide button from current path" />
+    <MESSAGE value="Calculate current page number from slide index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate current page number from slide index" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="30" key="CommitChangelistDialog2" timestamp="1587114203454">
+    <state x="436" y="30" key="CommitChangelistDialog2" timestamp="1587114928422">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="423" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587114203454" />
+    <state x="436" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587114928422" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -166,6 +181,22 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="680" y="360" width="264" height="209" key="Github.ShareDialog/0.30.1600.870@0.30.1600.870" timestamp="1586602886549" />
+    <state width="1579" height="226" key="GridCell.Tab.0.bottom" timestamp="1587214544910">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state width="1579" height="226" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1587214544910" />
+    <state width="1579" height="226" key="GridCell.Tab.0.center" timestamp="1587214544910">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state width="1579" height="226" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1587214544910" />
+    <state width="1579" height="226" key="GridCell.Tab.0.left" timestamp="1587214544910">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state width="1579" height="226" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1587214544910" />
+    <state width="1579" height="226" key="GridCell.Tab.0.right" timestamp="1587214544910">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state width="1579" height="226" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1587214544910" />
     <state x="575" y="92" key="SettingsEditor" timestamp="1586784222568">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
