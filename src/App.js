@@ -7,12 +7,14 @@ import Header from "./containers/Header/Header";
 import Welcome from "./containers/Welcome/Welcome";
 import Classes from "./containers/Classes/Classes";
 import Contact from "./containers/Contact/Contact";
+import OrderForm from "./containers/OrderForm/OrderForm";
 
 const App = () => {
 
     const slides = [
         {path: "/Welcome", name: "Welcome", Component: Welcome},
         {path: "/Classes", name: "Classes", Component: Classes},
+        {path: "/OrderForm", name: "Order", Component: OrderForm},
         {path: "/Contact", name: "Contact", Component: Contact}
     ];
 

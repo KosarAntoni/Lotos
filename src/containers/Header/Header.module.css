@@ -28,7 +28,6 @@
     z-index: 20;
 
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
     transition-duration: 300ms;
 }
 
@@ -336,7 +335,7 @@
 
     .menuWrapper {
         top: 1.6rem;
-        left:3.9rem;
+        left: 3.9rem;
     }
 
     .phoneNumber {
