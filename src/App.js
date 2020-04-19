@@ -6,12 +6,14 @@ import styles from "./App.module.css"
 import Header from "./containers/Header/Header";
 import Welcome from "./containers/Welcome/Welcome";
 import Classes from "./containers/Classes/Classes";
+import Contact from "./containers/Contact/Contact";
 
 const App = () => {
 
     const slides = [
-        {path: "/01", name: "Welcome", Component: Welcome},
-        {path: "/02", name: "Classes", Component: Classes}
+        {path: "/Welcome", name: "Welcome", Component: Welcome},
+        {path: "/Classes", name: "Classes", Component: Classes},
+        {path: "/Contact", name: "Contact", Component: Contact}
     ];
 
     return (
@@ -41,9 +43,9 @@ const App = () => {
                     </Route>
                 )}
                 {/*------Redirect if no matches--------*/}
-                <Route path="*">
-                    <Redirect to="/01"/>
-                </Route>
+                {/*<Route path="*">*/}
+                {/*    <Redirect to={slides[0].path}/>*/}
+                {/*</Route>*/}
             </div>
         </Router>
     );

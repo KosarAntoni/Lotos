@@ -1,0 +1,113 @@
+.contactSection {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mapContainer {
+    position: relative;
+    width: 40%;
+    height: 80%;
+    margin-left: 15%;
+}
+
+.mapContainer:after {
+    position: absolute;
+    content: "";
+    z-index: 10;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1rem 1rem inset #fbf5f4;
+}
+
+.textContainer {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textContainer * {
+    font-weight: normal;
+}
+
+.textContainer h1 {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.textContainer > div,
+.textContainer > a {
+    margin-bottom: 1rem;
+}
+
+.textContainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.showOnMap,
+.sendReview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showOnMap > div,
+.sendReview > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 0.5rem;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    background: linear-gradient(#f78e6a, #fc66a2);
+}
+
+.showOnMap > span,
+.sendReview > span {
+    font-size: 0.75rem;
+}
+
+.copyrights {
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .mapContainer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .textContainer {
+        position: absolute;
+        left: 1.5rem;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactSection {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mapContainer {
+        width: 100%;
+        height: 40%;
+        margin: 0;
+    }
+
+    .textContainer {
+        position: relative;
+        left: 0;
+        margin-left: 1.25rem;
+    }
+}

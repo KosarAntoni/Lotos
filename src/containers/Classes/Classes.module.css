@@ -6,7 +6,7 @@
 
 .variablesContainer {
     width: 50%;
-    padding: 10rem 0 10rem 10rem;
+    padding: 10% 0 10% 15%;
     position: relative;
 
     display: flex;
@@ -68,7 +68,7 @@
 
 .informationContainer {
     width: 50%;
-    padding: 10rem 10rem 10rem 0;
+    padding: 10% 15% 10% 0;
 
     display: flex;
     flex-direction: column;
@@ -76,6 +76,7 @@
 
 .informationContainer h1 {
     font-size: 2.7rem;
+    margin-top: -0.7rem;
     background: linear-gradient(to top, #f78e6a, #fc66a2);
     -webkit-background-clip: text;
     color: transparent;

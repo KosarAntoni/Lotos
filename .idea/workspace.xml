@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/containers/Contact/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Contact/Contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
       <workItem from="1586783913140" duration="19833000" />
       <workItem from="1587020187843" duration="12613000" />
       <workItem from="1587210104029" duration="11501000" />
-      <workItem from="1587229400799" duration="2427000" />
+      <workItem from="1587229400799" duration="17486000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -148,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587221167064</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Change icon and title">
+      <created>1587231872975</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587231872975</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,13 +179,14 @@
     <MESSAGE value="Generate next slide button from current path" />
     <MESSAGE value="Calculate current page number from slide index" />
     <MESSAGE value="Add animations to slide change and to change page button and current page number&#10;Change BrouserRouter to HashRouter for correct work with gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add animations to slide change and to change page button and current page number&#10;Change BrouserRouter to HashRouter for correct work with gh-pages" />
+    <MESSAGE value="Change icon and title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change icon and title" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="30" key="CommitChangelistDialog2" timestamp="1587221164264">
+    <state x="436" y="30" key="CommitChangelistDialog2" timestamp="1587231870033">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="436" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587221164264" />
+    <state x="436" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587231870033" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -209,9 +223,9 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587221171214" />
-    <state x="456" y="213" key="run.anything.popup" timestamp="1587025443501">
+    <state x="456" y="213" key="run.anything.popup" timestamp="1587286435010">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1587025443501" />
+    <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1587286435010" />
   </component>
 </project>
