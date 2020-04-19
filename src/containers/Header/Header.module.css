@@ -36,14 +36,20 @@
     opacity: 0;
     transition-duration: 300ms;
 }
+
 .menuWrapper {
     display: flex;
     flex-direction: column;
 
     position: fixed;
-    top: 3%;
-    left: 10%;
+    top: 3.2%;
+    left: 7%;
     z-index: 30;
+}
+
+.menuEnter .menuWrapper {
+    opacity: 0;
+    transform: translateX(-2rem);
 }
 
 .menuWrapper > a {
@@ -329,7 +335,8 @@
     }
 
     .menuWrapper {
-        top: 1.5rem;
+        top: 1.6rem;
+        left:3.9rem;
     }
 
     .phoneNumber {
@@ -360,6 +367,25 @@
         margin: 0;
     }
 
+    .nextPage > div,
+    .nextPage > div:before {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .nextPage > div::after {
+        border-left: 0.4rem solid transparent;
+        border-right: 0.4rem solid transparent;
+
+        border-top: 0.8rem solid #fff;
+    }
+
+    .nextPage:hover > div::after {
+        border-left: 0.4rem solid transparent;
+        border-right: 0.4rem solid transparent;
+        border-top: 0.8rem solid #fc66a2;
+    }
+
     .nextPage span {
         display: none;
     }
@@ -379,8 +405,8 @@
     }
 
     .menuWrapper {
-        top: 1.25rem;
-        left: 4rem;
+        top: 1.4rem;
+        left: 3.8rem;
     }
 
     .phoneNumber {

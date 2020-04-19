@@ -20,28 +20,30 @@ const App = () => {
         <Router>
             <div className="App">
                 <Route path="/" render={(props) => <Header pathname={props.location.pathname} slides={slides}/>}/>
-                {slides.map((slide) =>
-                    <Route key={slide.name} path={slide.path}>
-                        {({match}) =>
-                            <CSSTransition
-                                in={match !== null}
-                                timeout={{
-                                    enter: 500,
-                                    exit: 500}}
-                                classNames={{
-                                    enter: `${styles.slideEnter} + " " + ${styles.slide}`,
-                                    enterDone: styles.slide,
-                                    exit: `${styles.slideExit} + " " + ${styles.slide}`,
-                                    exitActive: `${styles.slideExitActive} + " " + ${styles.slide}`
-                                }}
-                                unmountOnExit>
-                                <div>
-                                    <slide.Component/>
-                                </div>
-                            </CSSTransition>
-                        }
-                    </Route>
-                )}
+                <div id="slidesWrapper">
+                    {slides.map((slide) =>
+                        <Route key={slide.name} path={slide.path}>
+                            {({match}) =>
+                                <CSSTransition
+                                    in={match !== null}
+                                    timeout={{
+                                        enter: 500,
+                                        exit: 500}}
+                                    classNames={{
+                                        enter: `${styles.slideEnter} + " " + ${styles.slide}`,
+                                        enterDone: styles.slide,
+                                        exit: `${styles.slideExit} + " " + ${styles.slide}`,
+                                        exitActive: `${styles.slideExitActive} + " " + ${styles.slide}`
+                                    }}
+                                    unmountOnExit>
+                                    <div>
+                                        <slide.Component/>
+                                    </div>
+                                </CSSTransition>
+                            }
+                        </Route>
+                    )}
+                </div>
                 {/*------Redirect if no matches--------*/}
                 {/*<Route path="*">*/}
                 {/*    <Redirect to={slides[0].path}/>*/}

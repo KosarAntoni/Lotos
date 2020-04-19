@@ -61,6 +61,8 @@ const Header = ({pathname, slides}) => {
     };
 
     const handleOpenMenu = () => {
+        if(!isMenuOpen) document.body.querySelector("#slidesWrapper").style.transform = "translateX(15rem)";
+        else document.body.querySelector("#slidesWrapper").style.transform = "translateX(0)";
         setIsMenuOpen(!isMenuOpen);
     };
 
