@@ -268,13 +268,13 @@
     }
 
     .informationContainer {
-        padding: 8rem 0;
+        padding: 8% 0;
         width: 60%;
     }
 
     .variablesContainer {
         width: 40%;
-        padding: 8rem 0;
+        padding: 8% 0;
         justify-content: flex-end;
     }
 

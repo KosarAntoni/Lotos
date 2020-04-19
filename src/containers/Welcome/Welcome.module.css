@@ -154,6 +154,15 @@
         flex-direction: column;
     }
 
+    .titleContainer > h1 {
+        font-size: 7rem;
+    }
+
+    .titleContainer > span {
+        font-size: 0.9rem;
+        left: -2.2rem;
+    }
+
     .imageContainer {
         justify-content: center;
         align-items: flex-end;

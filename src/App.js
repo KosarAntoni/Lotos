@@ -26,16 +26,16 @@ const App = () => {
                             <CSSTransition
                                 in={match !== null}
                                 timeout={{
+                                    enter: 500,
                                     exit: 500}}
                                 classNames={{
                                     enter: `${styles.slideEnter} + " " + ${styles.slide}`,
-                                    enterActive: `${styles.slideEnter} + " " + ${styles.slide}`,
                                     enterDone: styles.slide,
                                     exit: `${styles.slideExit} + " " + ${styles.slide}`,
                                     exitActive: `${styles.slideExitActive} + " " + ${styles.slide}`
                                 }}
                                 unmountOnExit>
-                                <div className={styles.slide}>
+                                <div>
                                     <slide.Component/>
                                 </div>
                             </CSSTransition>
