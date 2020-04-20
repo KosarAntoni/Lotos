@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Welcome.module.css";
 import i01 from "../../Assets/01.png";
+import {Link} from "react-router-dom";
 
 const Welcome = () => {
     return (
@@ -14,10 +15,10 @@ const Welcome = () => {
                     <h1>Lotos</h1>
                 </div>
 
-                <button className={styles.inviteButton}>
+                <Link to="/OrderForm" className={styles.inviteButton}>
                     <div className={styles.plusIcon}/>
                     <span>Check our free trial lesson</span>
-                </button>
+                </Link>
             </div>
         </section>
     );

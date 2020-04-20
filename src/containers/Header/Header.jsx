@@ -20,7 +20,6 @@ const Header = ({pathname, slides}) => {
                 }}
                 classNames={{
                     enter: styles.currentPageEnter,
-                    enterActive: styles.currentPageEnter,
                     enterDone: styles.currentPage,
                     exit: styles.currentPage,
                     exitActive: styles.currentPageExit
@@ -48,7 +47,6 @@ const Header = ({pathname, slides}) => {
                     }}
                     classNames={{
                         enter: styles.nextPageTextEnter,
-                        enterActive: styles.nextPageTextEnter,
                         enterDone: styles.nextPageText,
                         exit: styles.nextPageText,
                         exitActive: styles.nextPageTextEnter
