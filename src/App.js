@@ -8,14 +8,16 @@ import Welcome from "./containers/Welcome/Welcome";
 import Classes from "./containers/Classes/Classes";
 import Contact from "./containers/Contact/Contact";
 import OrderForm from "./containers/OrderForm/OrderForm";
+import SeasonTickets from "./containers/SeasonTickets/SeasonTickets";
 
 const App = () => {
 
     const slides = [
-        {path: "/Welcome", name: "Welcome", Component: Welcome},
-        {path: "/Classes", name: "Classes", Component: Classes},
-        {path: "/OrderForm", name: "Order", Component: OrderForm},
-        {path: "/Contact", name: "Contact", Component: Contact}
+        {path: "/welcome", name: "Welcome", Component: Welcome, props: "/orderForm" },
+        {path: "/classes", name: "Classes", Component: Classes, props: "/seasonTickets" },
+        {path: "/orderForm", name: "Order", Component: OrderForm, props: null},
+        {path: "/seasonTickets", name: "Tickets", Component: SeasonTickets, props: "/orderForm"},
+        {path: "/contact", name: "Contact", Component: Contact, props: null}
     ];
 
     return (
@@ -25,7 +27,7 @@ const App = () => {
                 <div id="slidesWrapper">
                     {slides.map((slide) =>
                         <Route key={slide.name} path={slide.path}>
-                            {({match}) =>
+                            {({match, location}) =>
                                 <CSSTransition
                                     in={match !== null}
                                     timeout={{
@@ -39,7 +41,7 @@ const App = () => {
                                     }}
                                     unmountOnExit>
                                     <div>
-                                        <slide.Component/>
+                                        <slide.Component data={slide.props} pathname={location.pathname}/>
                                     </div>
                                 </CSSTransition>
                             }

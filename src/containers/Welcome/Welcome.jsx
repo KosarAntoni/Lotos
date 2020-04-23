@@ -3,7 +3,7 @@ import styles from "./Welcome.module.css";
 import i01 from "../../Assets/01.png";
 import {Link} from "react-router-dom";
 
-const Welcome = () => {
+const Welcome = ({data}) => {
     return (
         <section className={styles.welcomeSection} id={"welcomeSection"}>
             <div className={styles.imageContainer}>
@@ -15,7 +15,7 @@ const Welcome = () => {
                     <h1>Lotos</h1>
                 </div>
 
-                <Link to="/OrderForm" className={styles.inviteButton}>
+                <Link to={data} className={styles.inviteButton}>
                     <div className={styles.plusIcon}/>
                     <span>Check our free trial lesson</span>
                 </Link>

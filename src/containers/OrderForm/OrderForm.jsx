@@ -8,7 +8,7 @@ import envelope from "../../Assets/envelope.svg";
 import MediaQuery from "react-responsive";
 import {CSSTransition, SwitchTransition} from "react-transition-group";
 
-const OrderForm = () => {
+const OrderForm = ({pathname}) => {
 
     let [isFormSend, setIsFormSend] = useState(false);
 
@@ -31,10 +31,18 @@ const OrderForm = () => {
     };
 
     const handleSubmit = (values, {setSubmitting}) => {
+
+        const ticketPath = pathname.split("/")[2] || "none";
+
+        const sendData = {
+            ...values,
+            ticket: ticketPath
+        };
+
         setIsFormSend(true);
 
         setTimeout(() => {
-            console.log(JSON.stringify(values, null, 2));
+            console.log(JSON.stringify(sendData, null, 2));
             setSubmitting(false);
         }, 400);
     };

@@ -3,6 +3,7 @@ import styles from "./Classes.module.css"
 import i02 from "../../Assets/02.png"
 import {CSSTransition, SwitchTransition} from "react-transition-group";
 import MediaQuery from "react-responsive";
+import {Link} from "react-router-dom";
 
 const yogaClassesData = [
     {
@@ -47,7 +48,7 @@ const yogaClassesData = [
     }
 ];
 
-const Classes = () => {
+const Classes = ({data}) => {
 
     const [currentVariable, setCurrentVariable] = useState(0);
 
@@ -78,10 +79,10 @@ const Classes = () => {
                 <div className={styles.textContainer}>
                     <h2>{yogaClassesData[currentVariable].title}</h2>
                     {yogaClassesData[currentVariable].about.map((item, id ) => <p key={id}>{item}</p>)}
-                    <button className={styles.orderButton}>
+                    <Link to={data} className={styles.orderButton}>
                         <div className={styles.plusIcon}/>
                         <span>Order online</span>
-                    </button>
+                    </Link>
                 </div>
             </CSSTransition>
         </SwitchTransition>;

@@ -9,7 +9,8 @@ const Header = ({pathname, slides}) => {
     let [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const getCurrentPageNumber = () => {
-        const slideIndex = slides.findIndex((slide) => slide.path === pathname) + 1;
+        const rootPath = `/${pathname.split("/")[1]}`;
+        const slideIndex = slides.findIndex((slide) => slide.path === rootPath ) + 1;
         const pageNumber = slideIndex.toString().length < 2 ? "0" + slideIndex : slideIndex;
         return <SwitchTransition>
             <CSSTransition
