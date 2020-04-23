@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/SeasonTickets/SeasonTickets.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SeasonTickets/SeasonTickets.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/OrderForm/OrderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/OrderForm/OrderForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/OrderForm/OrderForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/OrderForm/OrderForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Welcome/Welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,7 @@
       <workItem from="1586783913140" duration="19833000" />
       <workItem from="1587020187843" duration="12613000" />
       <workItem from="1587210104029" duration="11501000" />
-      <workItem from="1587229400799" duration="61914000" />
+      <workItem from="1587229400799" duration="62166000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -197,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587371861461</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add season tickets section">
+      <created>1587670370128</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587670370128</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,13 +219,14 @@
     <MESSAGE value="Edit menu animation" />
     <MESSAGE value="Add OrderForm section" />
     <MESSAGE value="Add send form action to OrderForm section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add send form action to OrderForm section" />
+    <MESSAGE value="Add season tickets section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add season tickets section" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="30" key="CommitChangelistDialog2" timestamp="1587371859771">
+    <state x="385" y="30" key="CommitChangelistDialog2" timestamp="1587670399624">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="436" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587371859771" />
+    <state x="385" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587670399624" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -260,10 +259,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="575" y="92" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586784222568" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587371867601">
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587670392725">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587371867601" />
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587670392725" />
     <state x="456" y="213" key="run.anything.popup" timestamp="1587328601320">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
