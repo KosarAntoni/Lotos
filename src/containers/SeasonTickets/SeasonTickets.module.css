@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .imageContainer img {
@@ -205,6 +206,7 @@
     /*add two columns to make margins and scrollable*/
     .ticketsContainer {
         grid-template-areas: "l t t r" "l t t r" "l t t r";
+        grid-template-columns: 1rem 13rem 13rem 1rem;
     }
 
     .ticketsContainer::before {
@@ -247,6 +249,9 @@
         position: relative;
     }
 
+    .ticketsContainer {
+        grid-template-columns: 0.75rem 13rem 13rem 0.75rem;
+    }
 
     .ticketsContainer::before {
         width: 0.75rem;

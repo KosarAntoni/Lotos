@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SeasonTickets/SeasonTickets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SeasonTickets/SeasonTickets.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <workItem from="1586783913140" duration="19833000" />
       <workItem from="1587020187843" duration="12613000" />
       <workItem from="1587210104029" duration="11501000" />
-      <workItem from="1587229400799" duration="65112000" />
+      <workItem from="1587229400799" duration="65938000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -224,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587716900678</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="More overflow fixes;">
+      <created>1587717164864</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1587717164864</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add keys to menu links array;&#10;It's a last small commit I promise XD">
+      <created>1587717326662</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1587717326662</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,13 +268,15 @@
     <MESSAGE value="Some small improvements;&#10;Add first load redirection to first side;" />
     <MESSAGE value="Color change on plus icon in SeasonTickets.module.css;" />
     <MESSAGE value="Overflow fixes;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overflow fixes;" />
+    <MESSAGE value="More overflow fixes;" />
+    <MESSAGE value="Add keys to menu links array;&#10;It's a last small commit I promise XD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add keys to menu links array;&#10;It's a last small commit I promise XD" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="30" key="CommitChangelistDialog2" timestamp="1587717163675">
+    <state x="385" y="30" key="CommitChangelistDialog2" timestamp="1587717325633">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="385" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587717163675" />
+    <state x="385" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587717325633" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -291,10 +309,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="575" y="92" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586784222568" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587717166545">
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587717337272">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587717166545" />
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587717337272" />
     <state x="456" y="213" key="run.anything.popup" timestamp="1587328601320">
       <screen x="0" y="30" width="1600" height="870" />
     </state>

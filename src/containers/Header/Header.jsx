@@ -34,8 +34,9 @@ const Header = ({pathname, slides}) => {
     const slidesAmount = slides.length.toString().length < 2 ? `0${slides.length}` : `${slides.length}`;
 
     const getNextSlideButton = () => {
+        const rootPath = `/${pathname.split("/")[1]}`;
         //get index of next slide
-        const nextSlideIndexItem = slides[slides.findIndex((slide) => slide.path === pathname) + 1];
+        const nextSlideIndexItem = slides[slides.findIndex((slide) => slide.path === rootPath) + 1];
         //if next slide exist return next slide path else return path to first slide
         const nextSlideData = nextSlideIndexItem ? nextSlideIndexItem : slides[0];
         return <Link to={nextSlideData.path} className={styles.nextPage}>
@@ -65,7 +66,8 @@ const Header = ({pathname, slides}) => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const menuLinks = slides.map((slide) => <Link key={slide.name} to={slide.path} onClick={handleOpenMenu}>{slide.name}</Link>);
+    const menuLinks = slides.map((slide) => <Link key={slide.name} to={slide.path}
+                                                  onClick={handleOpenMenu}>{slide.name}</Link>);
 
     const menu =
         <TransitionGroup component={null}>
