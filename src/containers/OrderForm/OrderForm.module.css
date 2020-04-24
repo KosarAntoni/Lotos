@@ -76,12 +76,12 @@ form > div label {
 }
 
 input:focus,
-input:not(:placeholder-shown){
+input:not(:placeholder-shown) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 input:focus ~ label,
-input:not(:placeholder-shown) ~ label{
+input:not(:placeholder-shown) ~ label {
     position: absolute;
     font-size: 0.7rem;
     color: rgba(0, 0, 0, 1);

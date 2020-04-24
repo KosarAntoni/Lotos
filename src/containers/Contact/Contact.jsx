@@ -3,7 +3,6 @@ import MapGL, {LanguageControl, Marker} from '@urbica/react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 import placeholder from "../../Assets/placeholder.svg";
-import envelope from "../../Assets/envelope.svg";
 import location from "../../Assets/location.svg";
 import styles from "./Contact.module.css"
 
@@ -35,17 +34,15 @@ const Contact = () => {
                 <h1>Email:</h1>
                 <a href="mailto:Lotos-yoga@gmail.com">Lotos-yoga@gmail.com</a>
             </div>
+            <div>
+                <h1>Phone:</h1>
+                <a href={"tel:+12 345 678 901"}>+12 345 678 901</a>
+            </div>
             <a href="https://goo.gl/maps/KDzoTmuTFZhKMjLj7" className={styles.showOnMap}>
                 <div>
                     <img src={location} alt=""/>
                 </div>
                 <span>Show on map</span>
-            </a>
-            <a href="mailto:Lotos-yoga@gmail.com" className={styles.sendReview}>
-                <div>
-                    <img src={envelope} alt=""/>
-                </div>
-                <span>Send review</span>
             </a>
             <span className={styles.copyrights}>&copy; 2020 - Lotos Yoga Center</span>
         </div>

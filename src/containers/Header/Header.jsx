@@ -10,7 +10,7 @@ const Header = ({pathname, slides}) => {
 
     const getCurrentPageNumber = () => {
         const rootPath = `/${pathname.split("/")[1]}`;
-        const slideIndex = slides.findIndex((slide) => slide.path === rootPath ) + 1;
+        const slideIndex = slides.findIndex((slide) => slide.path === rootPath) + 1;
         const pageNumber = slideIndex.toString().length < 2 ? "0" + slideIndex : slideIndex;
         return <SwitchTransition>
             <CSSTransition
@@ -60,7 +60,7 @@ const Header = ({pathname, slides}) => {
     };
 
     const handleOpenMenu = () => {
-        if(!isMenuOpen) document.body.querySelector("#slidesWrapper").style.transform = "translateX(15rem)";
+        if (!isMenuOpen) document.body.querySelector("#slidesWrapper").style.transform = "translateX(15rem)";
         else document.body.querySelector("#slidesWrapper").style.transform = "translateX(0)";
         setIsMenuOpen(!isMenuOpen);
     };

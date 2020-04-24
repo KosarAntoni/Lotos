@@ -76,7 +76,8 @@ const OrderForm = ({pathname}) => {
                             <Form>
                                 <div>
                                     <h1><span className={styles.discount}>10%</span> discount on season ticket</h1>
-                                    <p>You will get 10% discount on season ticket if you buy it in you introduction lessons
+                                    <p>You will get 10% discount on season ticket if you buy it in you introduction
+                                        lessons
                                         day</p>
                                 </div>
                                 <div>

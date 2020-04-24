@@ -40,6 +40,8 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr auto;
     grid-gap: 0 1rem;
+
+    cursor: pointer;
 }
 
 .ticket > p:first-of-type {
@@ -57,8 +59,6 @@
     height: 2rem;
     width: 2rem;
     background: #f7f3f2;
-
-    cursor: pointer;
 }
 
 .ticket .plusIcon::before {
@@ -202,7 +202,7 @@
         display: none;
     }
 
-    /*add two columns to make margins*/
+    /*add two columns to make margins and scrollable*/
     .ticketsContainer {
         grid-template-areas: "l t t r" "l t t r" "l t t r";
     }

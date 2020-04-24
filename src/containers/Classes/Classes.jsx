@@ -78,7 +78,7 @@ const Classes = ({data}) => {
                 }}>
                 <div className={styles.textContainer}>
                     <h2>{yogaClassesData[currentVariable].title}</h2>
-                    {yogaClassesData[currentVariable].about.map((item, id ) => <p key={id}>{item}</p>)}
+                    {yogaClassesData[currentVariable].about.map((item, id) => <p key={id}>{item}</p>)}
                     <Link to={data} className={styles.orderButton}>
                         <div className={styles.plusIcon}/>
                         <span>Order online</span>
@@ -99,7 +99,8 @@ const Classes = ({data}) => {
                 if (value >= 0) setCurrentVariable(value);
                 break;
             }
-            default: return;
+            default:
+                return;
         }
     };
 
@@ -117,8 +118,11 @@ const Classes = ({data}) => {
                 <h1>Yoga-</h1>
                 <MediaQuery maxWidth={500}>
                     <div className={styles.buttonsContainer}>
-                        <button className={styles.nextClassButton} onClick={() => handleClassChange("PREV")}>Prev</button>
-                        <button className={styles.nextClassButton + " " + styles.prevClassButton} onClick={() => handleClassChange("NEXT")}>Next</button>
+                        <button className={styles.nextClassButton} onClick={() => handleClassChange("PREV")}>Prev
+                        </button>
+                        <button className={styles.nextClassButton + " " + styles.prevClassButton}
+                                onClick={() => handleClassChange("NEXT")}>Next
+                        </button>
                     </div>
                 </MediaQuery>
                 {classInfo}

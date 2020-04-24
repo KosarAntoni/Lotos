@@ -198,8 +198,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     background: #fff;
     transition-duration: 500ms;
@@ -209,8 +209,8 @@
     position: absolute;
     content: "";
     display: block;
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
 
     background: linear-gradient(#f78e6a, #fc66a2);

@@ -52,11 +52,13 @@ const SeasonTickets = ({data}) => {
         <div className={styles.selectorSection}>
             <div className={styles.ticketsWrapper}>
                 <div className={styles.ticketsContainer}>
-                    {ticketsData.map( (ticket, index) => <div key={ticket.name} className={styles.ticket}>
+                    {ticketsData.map((ticket, index) => <div key={ticket.name} className={styles.ticket}
+                                                             onClick={() => setSelectedTicket(index)}>
                         <p>{ticket.name}</p>
                         <p><span className={styles.price}>{ticket.price}</span> $</p>
-                        <div className={index === selectedTicket ? `${styles.plusIcon} ${styles.plusIconSelected}` : styles.plusIcon} onClick={ () => setSelectedTicket(index)}/>
-                    </div> )}
+                        <div
+                            className={index === selectedTicket ? `${styles.plusIcon} ${styles.plusIconSelected}` : styles.plusIcon}/>
+                    </div>)}
                 </div>
 
             </div>

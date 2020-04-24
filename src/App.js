@@ -13,10 +13,10 @@ import SeasonTickets from "./containers/SeasonTickets/SeasonTickets";
 const App = () => {
 
     const slides = [
-        {path: "/welcome", name: "Welcome", Component: Welcome, props: "/orderForm" },
-        {path: "/classes", name: "Classes", Component: Classes, props: "/seasonTickets" },
-        {path: "/orderForm", name: "Order", Component: OrderForm, props: null},
+        {path: "/welcome", name: "Welcome", Component: Welcome, props: "/orderForm"},
+        {path: "/classes", name: "Classes", Component: Classes, props: "/seasonTickets"},
         {path: "/seasonTickets", name: "Tickets", Component: SeasonTickets, props: "/orderForm"},
+        {path: "/orderForm", name: "Order", Component: OrderForm, props: null},
         {path: "/contact", name: "Contact", Component: Contact, props: null}
     ];
 
@@ -32,7 +32,8 @@ const App = () => {
                                     in={match !== null}
                                     timeout={{
                                         enter: 500,
-                                        exit: 500}}
+                                        exit: 500
+                                    }}
                                     classNames={{
                                         enter: `${styles.slideEnter} + " " + ${styles.slide}`,
                                         enterDone: styles.slide,
@@ -48,10 +49,10 @@ const App = () => {
                         </Route>
                     )}
                 </div>
-                {/*------Redirect if no matches--------*/}
-                {/*<Route path="*">*/}
-                {/*    <Redirect to={slides[0].path}/>*/}
-                {/*</Route>*/}
+                {/*------Redirect on first load--------*/}
+                <Route exact path="/">
+                    <Redirect to={slides[0].path}/>
+                </Route>
             </div>
         </Router>
     );
