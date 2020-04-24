@@ -65,7 +65,7 @@ const Header = ({pathname, slides}) => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const menuLinks = slides.map((slide) => <Link to={slide.path} onClick={handleOpenMenu}>{slide.name}</Link>);
+    const menuLinks = slides.map((slide) => <Link key={slide.name} to={slide.path} onClick={handleOpenMenu}>{slide.name}</Link>);
 
     const menu =
         <TransitionGroup component={null}>
