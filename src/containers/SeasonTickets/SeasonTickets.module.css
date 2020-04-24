@@ -77,8 +77,8 @@
     display: block;
     width: 1.5rem;
     height: 1.5rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(#c3c3c3, #c3c3c3),
+    linear-gradient(#c3c3c3, #c3c3c3);
     background-position: center;
     background-size: 50% 2px, 2px 50%;
     background-repeat: no-repeat;
