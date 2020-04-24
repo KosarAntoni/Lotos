@@ -4,7 +4,6 @@
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Classes/Classes.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <workItem from="1586783913140" duration="19833000" />
       <workItem from="1587020187843" duration="12613000" />
       <workItem from="1587210104029" duration="11501000" />
-      <workItem from="1587229400799" duration="64853000" />
+      <workItem from="1587229400799" duration="65112000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587716411074</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Overflow fixes;">
+      <created>1587716900678</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1587716900678</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,13 +251,14 @@
     <MESSAGE value="Add season tickets section" />
     <MESSAGE value="Some small improvements;&#10;Add first load redirection to first side;" />
     <MESSAGE value="Color change on plus icon in SeasonTickets.module.css;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color change on plus icon in SeasonTickets.module.css;" />
+    <MESSAGE value="Overflow fixes;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overflow fixes;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="30" key="CommitChangelistDialog2" timestamp="1587716409684">
+    <state x="385" y="30" key="CommitChangelistDialog2" timestamp="1587716899458">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="385" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587716409684" />
+    <state x="385" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587716899458" />
     <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
@@ -284,10 +291,10 @@
       <screen x="0" y="30" width="1600" height="870" />
     </state>
     <state x="575" y="92" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586784222568" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587716413384">
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1587716901938">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587716413384" />
+    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1587716901938" />
     <state x="456" y="213" key="run.anything.popup" timestamp="1587328601320">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
