@@ -20,10 +20,10 @@ h1, h2, h3, h4 {
 
 :root {
     background-color: #fbf5f4;
+    overflow: hidden;
 }
 
 .App {
-    overflow: hidden;
     height: 100vh;
     width: 100vw;
 }

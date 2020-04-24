@@ -3,6 +3,7 @@
     flex-direction: row;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .variablesContainer {
