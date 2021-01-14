@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kosarantoni.github.io/lotos/",
   "name": "lotos",
   "version": "0.1.0",
   "private": true,
@@ -50,7 +49,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "exit 1"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
