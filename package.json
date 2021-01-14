@@ -54,6 +54,9 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.{js,jsx,json,css,scss,html,md}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
