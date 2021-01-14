@@ -109,7 +109,7 @@ const Header = ({ pathname, slides }) => {
 
   return (
     <div className={styles.headerContainer}>
-      <button className={isMenuOpen ? `${styles.menuButton} ${styles.menuOpen}` : styles.menuButton}>
+      <button type="button" className={isMenuOpen ? `${styles.menuButton} ${styles.menuOpen}` : styles.menuButton}>
         <div onClick={() => handleOpenMenu()} className={styles.menuIcon}>
           <div className={styles.bar} />
           <div className={styles.bar} />

@@ -7,14 +7,14 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@urbica/react-map-gl": "^1.13.0",
-    "formik": "^2.1.4",
-    "mapbox-gl": "^1.9.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-responsive": "^8.0.3",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.4",
-    "react-transition-group": "^4.3.0"
+    "formik": "^2.2.6",
+    "mapbox-gl": "^1.13.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-transition-group": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,19 +43,6 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "husky": "^4.3.7",
-    "lint-staged": "^10.5.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,json,css,scss,html,md}": [
-      "eslint --fix",
-      "git add"
-    ]
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
