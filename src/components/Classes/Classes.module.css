@@ -54,7 +54,7 @@
     transition-duration: 300ms;
 }
 
-.variablesContainer li.variableSelected:before  {
+.variablesContainer li.variableSelected:before {
     position: absolute;
     left: -3.3rem;
     content: "Yoga - ";

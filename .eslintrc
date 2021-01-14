@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "document": true
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": 0,
+    "no-tabs": 0,
+    "react/state-in-constructor": [0],
+    "import/prefer-default-export":  0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["./src"],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  }
+}

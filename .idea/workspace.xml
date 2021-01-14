@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Automatic code optimizations;">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,20 +20,31 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.github.izhangzhihao.rainbow.brackets.settings.RainbowConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -49,6 +61,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -69,6 +82,8 @@
       <workItem from="1587210104029" duration="11501000" />
       <workItem from="1587229400799" duration="66368000" />
       <workItem from="1588011171679" duration="47000" />
+      <workItem from="1610530203388" duration="1421000" />
+      <workItem from="1610629935967" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -245,11 +260,30 @@
       <option name="project" value="LOCAL" />
       <updated>1587718183862</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Automatic code optimizations;">
+      <created>1610630852733</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610630852733</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
@@ -276,56 +310,7 @@
     <MESSAGE value="More overflow fixes;" />
     <MESSAGE value="Add keys to menu links array;&#10;It's a last small commit I promise XD" />
     <MESSAGE value="Some styles fixes;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some styles fixes;" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="385" y="30" key="CommitChangelistDialog2" timestamp="1587718182253">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="385" y="30" key="CommitChangelistDialog2/0.30.1600.870@0.30.1600.870" timestamp="1587718182253" />
-    <state x="580" y="207" key="FileChooserDialogImpl" timestamp="1586602753441">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="580" y="207" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1586602753441" />
-    <state x="295" y="30" key="FileDocumentManager.FileCacheConflict" timestamp="1586726316249">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="295" y="30" key="FileDocumentManager.FileCacheConflict/0.30.1600.870@0.30.1600.870" timestamp="1586726316249" />
-    <state x="680" y="360" width="264" height="209" key="Github.ShareDialog" timestamp="1586602886549">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="680" y="360" width="264" height="209" key="Github.ShareDialog/0.30.1600.870@0.30.1600.870" timestamp="1586602886549" />
-    <state width="1579" height="226" key="GridCell.Tab.0.bottom" timestamp="1587221704527">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="1579" height="226" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1587221704527" />
-    <state width="1579" height="226" key="GridCell.Tab.0.center" timestamp="1587221704527">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="1579" height="226" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1587221704527" />
-    <state width="1579" height="226" key="GridCell.Tab.0.left" timestamp="1587221704527">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="1579" height="226" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1587221704527" />
-    <state width="1579" height="226" key="GridCell.Tab.0.right" timestamp="1587221704527">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="1579" height="226" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1587221704527" />
-    <state x="575" y="92" key="SettingsEditor" timestamp="1586784222568">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="575" y="92" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1586784222568" />
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2" timestamp="1588503699215">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="392" y="195" key="Vcs.Push.Dialog.v2/0.30.1600.870@0.30.1600.870" timestamp="1588503699215" />
-    <state x="456" y="213" key="run.anything.popup" timestamp="1587328601320">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="456" y="213" key="run.anything.popup/0.30.1600.870@0.30.1600.870" timestamp="1587328601320" />
-    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1587662902003">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.30.1600.870@0.30.1600.870" timestamp="1587662902003" />
+    <MESSAGE value="Automatic code optimizations;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automatic code optimizations;" />
   </component>
 </project>
