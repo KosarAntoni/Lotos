@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import './App.css';
 import styles from './App.module.css';
-import Header from './components/Header/Header';
-import Welcome from './components/Welcome/Welcome';
-import Classes from './components/Classes/Classes';
-import Contact from './components/Contact/Contact';
-import OrderForm from './components/OrderForm/OrderForm';
-import SeasonTickets from './components/SeasonTickets/SeasonTickets';
+import Header from './containers/Header/Header';
+import Welcome from './containers/Welcome/Welcome';
+import Classes from './containers/Classes/Classes';
+import Contact from './containers/Contact/Contact';
+import OrderForm from './containers/OrderForm/OrderForm';
+import SeasonTickets from './containers/SeasonTickets/SeasonTickets';
 
 const App = () => {
   const slides = [
