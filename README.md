@@ -7,7 +7,7 @@
 
 ## Technologies
 #### Frontend:
->hosted by [netlify](https://lotos-yoga.netlify.app/)
+>hosted by [netlify](https://www.netlify.com/)
 * React 
 * React Router
 * CSS Modules
@@ -15,7 +15,7 @@
 * Formik
 
 ## Live
-#### [Link to live](https://favnotebykosar.netlify.app/) <br/>
+#### [Link to live](https://lotos-yoga.netlify.app/) <br/>
 
 ## Status
 Project is: _in progress_.
