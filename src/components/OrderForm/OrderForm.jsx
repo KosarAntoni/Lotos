@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Formik, Field, Form, ErrorMessage,
 } from 'formik';
-import PropTypes from 'prop-types';
 import MediaQuery from 'react-responsive';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import styles from './OrderForm.module.css';
@@ -10,7 +9,7 @@ import slideAnimation from '../../App.module.css';
 import i03 from '../../Assets/03.png';
 import envelope from '../../Assets/envelope.svg';
 
-const OrderForm = ({ pathname }) => {
+const OrderForm = () => {
   const [isFormSend, setIsFormSend] = useState(false);
 
   const validate = (values) => {
@@ -32,17 +31,9 @@ const OrderForm = ({ pathname }) => {
   };
 
   const handleSubmit = (values, { setSubmitting }) => {
-    const ticketPath = pathname.split('/')[2] || 'none';
-
-    const sendData = {
-      ...values,
-      ticket: ticketPath,
-    };
-
     setIsFormSend(true);
 
     setTimeout(() => {
-      console.log(JSON.stringify(sendData, null, 2));
       setSubmitting(false);
     }, 400);
   };
@@ -125,10 +116,6 @@ const OrderForm = ({ pathname }) => {
       </div>
     </section>
   );
-};
-
-OrderForm.propTypes = {
-  pathname: PropTypes.string.isRequired,
 };
 
 export default OrderForm;

@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Code optimizations;">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Classes/Classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Classes/Classes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Classes/Classes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/OrderForm/OrderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OrderForm/OrderForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/Welcome.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
