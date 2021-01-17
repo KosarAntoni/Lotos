@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Code optimizations;">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Add README.md;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OrderForm/OrderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OrderForm/OrderForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
       <workItem from="1587229400799" duration="66368000" />
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
+      <workItem from="1610892585254" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -319,7 +320,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add and styled header" />
     <MESSAGE value="Add and styled Welcome section" />
     <MESSAGE value="Add and styled Classes section" />
     <MESSAGE value="Add animations and logic to Classes section" />
@@ -344,7 +344,8 @@
     <MESSAGE value="Some styles fixes;" />
     <MESSAGE value="Automatic code optimizations;" />
     <MESSAGE value="Code optimizations;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code optimizations;" />
+    <MESSAGE value="Add README.md;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
