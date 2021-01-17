@@ -26,13 +26,20 @@
     align-self: flex-start;
 }
 
-.variablesContainer > ul > li {
+.variablesContainer > ul > button {
     position: relative;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.5);
     transition-duration: 300ms;
+    background: none;
+    border: none;
+    text-align: left;
 
     cursor: pointer;
+}
+
+.variablesContainer > ul > button:focus {
+    outline: none;
 }
 
 .variablesContainer .variableSelected {
@@ -41,7 +48,7 @@
     transition-duration: 300ms;
 }
 
-.variablesContainer li:before {
+.variablesContainer button:before {
     position: absolute;
     left: -3.3rem;
     content: "Yoga - ";
@@ -54,7 +61,7 @@
     transition-duration: 300ms;
 }
 
-.variablesContainer li.variableSelected:before {
+.variablesContainer button.variableSelected:before {
     position: absolute;
     left: -3.3rem;
     content: "Yoga - ";

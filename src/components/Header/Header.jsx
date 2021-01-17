@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { CSSTransition, SwitchTransition, TransitionGroup } from 'react-transition-group';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import styles from './Header.module.css';
 import logo from '../../Assets/logo.svg';
 
@@ -109,8 +110,12 @@ const Header = ({ pathname, slides }) => {
 
   return (
     <div className={styles.headerContainer}>
-      <button type="button" className={isMenuOpen ? `${styles.menuButton} ${styles.menuOpen}` : styles.menuButton}>
-        <div onClick={() => handleOpenMenu()} className={styles.menuIcon}>
+      <button
+        type="button"
+        onClick={() => handleOpenMenu()}
+        className={isMenuOpen ? `${styles.menuButton} ${styles.menuOpen}` : styles.menuButton}
+      >
+        <div className={styles.menuIcon}>
           <div className={styles.bar} />
           <div className={styles.bar} />
           <div className={styles.bar} />
@@ -143,6 +148,15 @@ const Header = ({ pathname, slides }) => {
       {getNextSlideButton()}
     </div>
   );
+};
+
+Header.propTypes = {
+  pathname: PropTypes.string.isRequired,
+  slides: PropTypes.objectOf([PropTypes.string,
+    PropTypes.oneOfType([
+      PropTypes.arrayOf(PropTypes.node),
+      PropTypes.node,
+    ])]).isRequired,
 };
 
 export default Header;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import styles from './Welcome.module.css';
 import i01 from '../../Assets/01.png';
 
@@ -21,5 +22,9 @@ const Welcome = ({ data }) => (
     </div>
   </section>
 );
+
+Welcome.propTypes = {
+  data: PropTypes.string.isRequired,
+};
 
 export default Welcome;

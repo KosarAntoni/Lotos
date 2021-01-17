@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import MediaQuery from 'react-responsive';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import styles from './SeasonTickets.module.css';
 import i05 from '../../Assets/05.png';
 
@@ -53,7 +54,8 @@ const SeasonTickets = ({ data }) => {
         <div className={styles.ticketsWrapper}>
           <div className={styles.ticketsContainer}>
             {ticketsData.map((ticket, index) => (
-              <div
+              <button
+                type="button"
                 key={ticket.name}
                 className={styles.ticket}
                 onClick={() => setSelectedTicket(index)}
@@ -67,7 +69,7 @@ const SeasonTickets = ({ data }) => {
                 <div
                   className={index === selectedTicket ? `${styles.plusIcon} ${styles.plusIconSelected}` : styles.plusIcon}
                 />
-              </div>
+              </button>
             ))}
           </div>
 
@@ -80,6 +82,10 @@ const SeasonTickets = ({ data }) => {
 
     </section>
   );
+};
+
+SeasonTickets.propTypes = {
+  data: PropTypes.string.isRequired,
 };
 
 export default SeasonTickets;

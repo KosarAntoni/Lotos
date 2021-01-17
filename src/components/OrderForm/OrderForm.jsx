@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {
   Formik, Field, Form, ErrorMessage,
 } from 'formik';
-
+import PropTypes from 'prop-types';
 import MediaQuery from 'react-responsive';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import styles from './OrderForm.module.css';
@@ -90,6 +90,7 @@ const OrderForm = ({ pathname }) => {
                   </div>
                   <div>
                     <Field id="name" name="name" type="text" placeholder=" " />
+                    {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
                     <label htmlFor="name">
                       Your name
                       <ErrorMessage name="name" />
@@ -97,6 +98,7 @@ const OrderForm = ({ pathname }) => {
                   </div>
                   <div>
                     <Field id="email" name="email" type="email" placeholder=" " />
+                    {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
                     <label htmlFor="email">
                       Email address
                       <ErrorMessage name="email" />
@@ -123,6 +125,10 @@ const OrderForm = ({ pathname }) => {
       </div>
     </section>
   );
+};
+
+OrderForm.propTypes = {
+  pathname: PropTypes.string.isRequired,
 };
 
 export default OrderForm;
