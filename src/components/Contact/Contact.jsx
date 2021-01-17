@@ -1,29 +1,27 @@
 import React from 'react';
-import MapGL, { LanguageControl, Marker } from '@urbica/react-map-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
-
+import MapGL, { Marker } from 'react-map-gl';
 import placeholder from '../../Assets/placeholder.svg';
 import location from '../../Assets/location.svg';
 import styles from './Contact.module.css';
 
 const Contact = () => (
   <section className={styles.contactSection}>
-    <MapGL
-      className={styles.mapContainer}
-      mapStyle="mapbox://styles/mapbox/light-v9"
-      accessToken="pk.eyJ1Ijoia29zYXJhbnRvbmkiLCJhIjoiY2s5NXk2bXloMDJ0djNlbzJta2I2NXJ2OCJ9.TsXULSHvIXtMzShUAkzhjw"
-      latitude={59.9316612}
-      longitude={30.3574721}
-      zoom={15}
-    >
-      <Marker longitude={30.3574721} latitude={59.9316612} offset={[-10, -25]}>
-        <img src={placeholder} alt="" />
-      </Marker>
-      <LanguageControl
-        language="en"
-        defaultLanguage="en"
-      />
-    </MapGL>
+    <div className={styles.mapContainer}>
+      <MapGL
+        width="100%"
+        height="100%"
+        mapStyle="mapbox://styles/mapbox/light-v9"
+        mapboxApiAccessToken="pk.eyJ1Ijoia29zYXJhbnRvbmkiLCJhIjoiY2s5NXk2bXloMDJ0djNlbzJta2I2NXJ2OCJ9.TsXULSHvIXtMzShUAkzhjw"
+        latitude={59.9316612}
+        longitude={30.3574721}
+        zoom={15}
+      >
+        <Marker longitude={30.3574721} latitude={59.9316612} offset={[-10, -25]}>
+          <img src={placeholder} alt="" />
+        </Marker>
+      </MapGL>
+    </div>
+
     <div className={styles.textContainer}>
       <div>
         <h1>Location:</h1>
