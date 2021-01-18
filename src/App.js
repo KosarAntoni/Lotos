@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
-import './App.css';
 import styles from './App.module.css';
-import Header from './components/Header/Header';
+import Index from './components/Header';
 import Welcome from './components/Welcome/Welcome';
 import Classes from './components/Classes/Classes';
 import Contact from './components/Contact/Contact';
@@ -31,9 +30,9 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="App">
-        <Route path="/" render={({ location }) => <Header pathname={location.pathname} slides={slides} />} />
-        <div id="slidesWrapper">
+      <div className={styles.App}>
+        <Route path="/" render={() => <Index slides={slides} />} />
+        <div id="slidesWrapper" className={styles.slidesWrapper}>
           {slides.map((slide) => (
             <Route key={slide.name} path={slide.path}>
               {({ match, location }) => (

@@ -37,6 +37,7 @@
     display: grid;
     width: 13rem;
     border: none;
+    text-align: left;
 
     grid-template: "t b" "p b";
     grid-template-rows: 1fr 1fr;
