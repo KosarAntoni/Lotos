@@ -3,6 +3,7 @@ import MapGL, { Marker } from 'react-map-gl';
 import placeholder from '../../Assets/placeholder.svg';
 import location from '../../Assets/location.svg';
 import styles from './Contact.module.css';
+// import 'mapbox-gl/dist/mapbox-gl.css';
 
 const Contact = () => (
   <section className={styles.contactSection}>
