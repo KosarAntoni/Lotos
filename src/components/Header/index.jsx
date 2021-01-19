@@ -7,6 +7,7 @@ import SocialLinks from './SocialLinks';
 import PageCounter from './PageCounter';
 import NextPageButton from './NextPageButton';
 import Logo from './Logo';
+import MenuButton from './MenuButton';
 
 const Index = ({ slides }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,18 +24,7 @@ const Index = ({ slides }) => {
 
   return (
     <div className={styles.headerContainer}>
-      <button
-        type="button"
-        onClick={() => handleOpenMenu()}
-        className={isMenuOpen ? `${styles.menuButton} ${styles.menuOpen}` : styles.menuButton}
-      >
-        <div className={styles.menuIcon}>
-          <div className={styles.bar} />
-          <div className={styles.bar} />
-          <div className={styles.bar} />
-        </div>
-        <span>menu</span>
-      </button>
+      <MenuButton handleOpenMenu={handleOpenMenu} isMenuOpen={isMenuOpen} />
       <Menu slides={slides} handleOpenMenu={handleOpenMenu} isMenuOpen={isMenuOpen} />
       <a className={styles.phoneNumber} href="tel:+12 345 678 901">+12 345 678 901</a>
       <Logo link={slides[0].path} />

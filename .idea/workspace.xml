@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Add README.md;">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/NextPageButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/PageCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/SocialLinks.js" afterDir="false" />
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Header code refactoring/optimization;">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/MenuButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <workItem from="1587229400799" duration="66368000" />
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
-      <workItem from="1610892585254" duration="7967000" />
+      <workItem from="1610892585254" duration="8543000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -324,7 +315,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610893300659</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Header code refactoring/optimization;">
+      <created>1610989584450</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610989584450</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Header code refactoring/optimization;">
+      <created>1610989664305</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610989664305</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +349,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add and styled Welcome section" />
     <MESSAGE value="Add and styled Classes section" />
     <MESSAGE value="Add animations and logic to Classes section" />
     <MESSAGE value="Add change class buttons to Classes section" />
@@ -369,7 +373,8 @@
     <MESSAGE value="Automatic code optimizations;" />
     <MESSAGE value="Code optimizations;" />
     <MESSAGE value="Add README.md;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md;" />
+    <MESSAGE value="Header code refactoring/optimization;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header code refactoring/optimization;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
