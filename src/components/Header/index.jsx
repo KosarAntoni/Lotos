@@ -9,7 +9,7 @@ import NextPageButton from './NextPageButton';
 import Logo from './Logo';
 import MenuButton from './MenuButton';
 
-const Index = ({ slides }) => {
+const Header = ({ slides }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { pathname } = useLocation();
   const slideIndex = slides.findIndex((slide) => slide.path === pathname) + 1;
@@ -35,7 +35,7 @@ const Index = ({ slides }) => {
   );
 };
 
-Index.propTypes = {
+Header.propTypes = {
   slides: PropTypes.arrayOf(
     PropTypes.objectOf(
       PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
@@ -43,4 +43,4 @@ Index.propTypes = {
   ).isRequired,
 };
 
-export default Index;
+export default Header;
