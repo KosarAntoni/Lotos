@@ -3,11 +3,11 @@ import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import styles from './App.module.css';
 import Header from './components/Header';
-import Welcome from './components/Welcome/Welcome';
+import Welcome from './components/Welcome';
 import Classes from './components/Classes';
-import Contact from './components/Contact/Contact';
-import OrderForm from './components/OrderForm/OrderForm';
-import SeasonTickets from './components/SeasonTickets/SeasonTickets';
+import Contact from './components/Contact';
+import OrderForm from './components/OrderForm';
+import SeasonTickets from './components/SeasonTickets';
 
 const slides = [
   {

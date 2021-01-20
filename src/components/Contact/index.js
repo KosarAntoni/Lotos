@@ -2,7 +2,7 @@ import React from 'react';
 import MapGL, { Marker } from 'react-map-gl';
 import placeholder from '../../Assets/placeholder.svg';
 import location from '../../Assets/location.svg';
-import styles from './Contact.module.css';
+import styles from './styles.module.css';
 
 const Contact = () => (
   <section className={styles.contactSection}>

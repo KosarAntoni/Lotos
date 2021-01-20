@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Add mapbox styles;">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Classes/ClassInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Classes/VariablesContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Classes/data.js" afterDir="false" />
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Classes page code refactoring;">
+      <change afterPath="$PROJECT_DIR$/src/components/SeasonTickets/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Classes/Classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Classes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Classes/Classes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Classes/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OrderForm/OrderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OrderForm/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OrderForm/OrderForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OrderForm/styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeasonTickets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SeasonTickets/SeasonTickets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeasonTickets/styles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
       <workItem from="1610892585254" duration="10440000" />
-      <workItem from="1611136274744" duration="664000" />
+      <workItem from="1611136274744" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -360,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611087896540</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ClassInfo code refactoring;">
+      <created>1611137090156</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1611137090156</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +385,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add animations and logic to Classes section" />
     <MESSAGE value="Add change class buttons to Classes section" />
     <MESSAGE value="Add menu" />
     <MESSAGE value="Add react router support and link to menu and next slide button;&#10;Add page numbers are calculate from slides array and current slide path;" />
@@ -405,7 +409,8 @@
     <MESSAGE value="Add README.md;" />
     <MESSAGE value="Header code refactoring/optimization;" />
     <MESSAGE value="Add mapbox styles;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mapbox styles;" />
+    <MESSAGE value="Classes page code refactoring;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes page code refactoring;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,45 +1,12 @@
 import React, { useState } from 'react';
-
 import MediaQuery from 'react-responsive';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import styles from './SeasonTickets.module.css';
+import styles from './styles.module.css';
 import i05 from '../../Assets/05.png';
+import TicketsData from './data';
 
 const SeasonTickets = ({ data }) => {
-  const ticketsData = [
-    {
-      name: 'One lesson',
-      price: '30',
-      path: '/oneLesson',
-    },
-    {
-      name: 'One month',
-      price: '200',
-      path: '/oneMonth',
-    },
-    {
-      name: 'Two months',
-      price: '350',
-      path: '/twoMonths',
-    },
-    {
-      name: 'Three months',
-      price: '450',
-      path: '/threeMonths',
-    },
-    {
-      name: 'Six months',
-      price: '800',
-      path: '/sixMonths',
-    },
-    {
-      name: 'One year',
-      price: '1400',
-      path: '/oneYear',
-    },
-  ];
-
   const [selectedTicket, setSelectedTicket] = useState(0);
 
   return (
@@ -53,7 +20,7 @@ const SeasonTickets = ({ data }) => {
       <div className={styles.selectorSection}>
         <div className={styles.ticketsWrapper}>
           <div className={styles.ticketsContainer}>
-            {ticketsData.map((ticket, index) => (
+            {TicketsData.map((ticket, index) => (
               <button
                 type="button"
                 key={ticket.name}
@@ -74,7 +41,7 @@ const SeasonTickets = ({ data }) => {
           </div>
 
         </div>
-        <Link to={`${data}${ticketsData[selectedTicket].path}`} className={styles.orderButton}>
+        <Link to={`${data}${TicketsData[selectedTicket].path}`} className={styles.orderButton}>
           <div className={styles.plusIcon} />
           <span>Order ticket</span>
         </Link>

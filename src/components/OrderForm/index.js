@@ -4,7 +4,7 @@ import {
 } from 'formik';
 import MediaQuery from 'react-responsive';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
-import styles from './OrderForm.module.css';
+import styles from './styles.module.css';
 import slideAnimation from '../../App.module.css';
 import i03 from '../../Assets/03.png';
 import envelope from '../../Assets/envelope.svg';
