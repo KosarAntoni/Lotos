@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Try to fix bug while map is not shown after compilation;">
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,7 @@
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
       <workItem from="1610892585254" duration="10440000" />
-      <workItem from="1611136274744" duration="3999000" />
+      <workItem from="1611136274744" duration="5534000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -409,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611248397709</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Try to fix bug while map is not shown after compilation;">
+      <created>1611249096974</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1611249096974</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
