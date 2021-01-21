@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Address bar color change;">
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Try to fix bug while map is not shown after compilation;">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
       <workItem from="1610892585254" duration="10440000" />
-      <workItem from="1611136274744" duration="3313000" />
+      <workItem from="1611136274744" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -388,7 +388,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611138667745</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Try to fix bug while map is not shown after compilation;">
+      <created>1611247670319</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1611247670319</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Try to fix bug while map is not shown after compilation;">
+      <created>1611248382862</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1611248382862</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Try to fix bug while map is not shown after compilation;">
+      <created>1611248397709</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1611248397709</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add react router support and link to menu and next slide button;&#10;Add page numbers are calculate from slides array and current slide path;" />
     <MESSAGE value="Generate next slide button from current path" />
     <MESSAGE value="Calculate current page number from slide index" />
     <MESSAGE value="Add animations to slide change and to change page button and current page number&#10;Change BrouserRouter to HashRouter for correct work with gh-pages" />
@@ -433,7 +453,8 @@
     <MESSAGE value="Classes page code refactoring;" />
     <MESSAGE value="Code refactoring;" />
     <MESSAGE value="Address bar color change;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Address bar color change;" />
+    <MESSAGE value="Try to fix bug while map is not shown after compilation;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to fix bug while map is not shown after compilation;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

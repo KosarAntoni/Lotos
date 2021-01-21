@@ -1,3 +1,6 @@
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   mode: 'development',
 
@@ -24,4 +27,10 @@ module.exports = {
       },
     ],
   },
+
+  // Optional: Enables reading mapbox token from environment variable
+  plugins: [
+    new HtmlWebpackPlugin({ title: 'react-map-gl Example' }),
+    new webpack.EnvironmentPlugin(['MapboxAccessToken']),
+  ],
 };
