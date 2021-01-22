@@ -80,6 +80,12 @@
     font-size: 0.75rem;
 }
 
+.marker {
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 50px;
+}
+
 @media screen and (max-width: 1024px) {
     .mapContainer {
         width: 100%;
