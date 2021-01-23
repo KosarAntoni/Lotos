@@ -22,7 +22,8 @@ const ClassInfo = ({ yogaClassesData, currentVariable, link }) => (
     >
       <div className={styles.textContainer}>
         <h2>{yogaClassesData[currentVariable].title}</h2>
-        {yogaClassesData[currentVariable].about.map((item) => <p key={item}>{item}</p>)}
+        {/* eslint-disable-next-line react/no-array-index-key */}
+        {yogaClassesData[currentVariable].about.map((item, i) => <p key={`${item}${i}`}>{item}</p>)}
         <Link to={link} className={styles.orderButton}>
           <div className={styles.plusIcon} />
           <span>Order online</span>
@@ -33,7 +34,7 @@ const ClassInfo = ({ yogaClassesData, currentVariable, link }) => (
 );
 
 ClassInfo.propTypes = {
-  yogaClassesData: PropTypes.arrayOf(PropTypes.string).isRequired,
+  yogaClassesData: PropTypes.arrayOf(PropTypes.any).isRequired,
   currentVariable: PropTypes.number.isRequired,
   link: PropTypes.string.isRequired,
 };

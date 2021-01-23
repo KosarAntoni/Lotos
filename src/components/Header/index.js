@@ -17,7 +17,7 @@ const Header = ({ slides }) => {
 
   const handleOpenMenu = () => {
     document.body.querySelector('#slidesWrapper').style.transform = isMenuOpen
-      ? 'translateX(0rem)' : 'translateX(15rem)';
+      ? null : 'translateX(15rem)';
 
     setIsMenuOpen(!isMenuOpen);
   };

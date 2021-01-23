@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Replace react-map-gl to mapbox-gl;">
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Styled map marker;">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Classes/ClassInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Classes/ClassInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,7 @@
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
       <workItem from="1610892585254" duration="10440000" />
-      <workItem from="1611136274744" duration="8116000" />
+      <workItem from="1611136274744" duration="16432000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -423,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611268553774</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Styled map marker;">
+      <created>1611310306991</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1611310306991</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Calculate current page number from slide index" />
     <MESSAGE value="Add animations to slide change and to change page button and current page number&#10;Change BrouserRouter to HashRouter for correct work with gh-pages" />
     <MESSAGE value="Change icon and title" />
     <MESSAGE value="Add contact section" />
@@ -468,7 +476,8 @@
     <MESSAGE value="Address bar color change;" />
     <MESSAGE value="Try to fix bug while map is not shown after compilation;" />
     <MESSAGE value="Replace react-map-gl to mapbox-gl;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace react-map-gl to mapbox-gl;" />
+    <MESSAGE value="Styled map marker;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styled map marker;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
