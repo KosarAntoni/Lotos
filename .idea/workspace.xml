@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Styled map marker;">
+    <list default="true" id="25eeb2b2-3829-4adc-8c6c-bc68340bebd9" name="Default Changelist" comment="Add ability to move through slides using mouse wheel;">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Classes/ClassInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Classes/ClassInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +104,7 @@
       <workItem from="1588011171679" duration="47000" />
       <workItem from="1610883944265" duration="5412000" />
       <workItem from="1610892585254" duration="10440000" />
-      <workItem from="1611136274744" duration="16432000" />
+      <workItem from="1611136274744" duration="16790000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1586602941780</created>
@@ -432,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611310306991</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add ability to move through slides using mouse wheel;">
+      <created>1611411017458</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1611411017458</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add animations to slide change and to change page button and current page number&#10;Change BrouserRouter to HashRouter for correct work with gh-pages" />
     <MESSAGE value="Change icon and title" />
     <MESSAGE value="Add contact section" />
     <MESSAGE value="Fix slide change animation bug" />
@@ -477,7 +479,8 @@
     <MESSAGE value="Try to fix bug while map is not shown after compilation;" />
     <MESSAGE value="Replace react-map-gl to mapbox-gl;" />
     <MESSAGE value="Styled map marker;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled map marker;" />
+    <MESSAGE value="Add ability to move through slides using mouse wheel;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ability to move through slides using mouse wheel;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
